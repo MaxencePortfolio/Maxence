@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxence Dubois - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="TableauSynthese.pdf">Tableau de synthèse</a></li>
+                    <li><a href="#veille">Veille</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Maxence Dubois</h1>
+                <p>Étudiant en BTS SIO - Spécialité SISR</p>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="container">
+        <h2>À Propos</h2>
+        <p>Étudiant en deuxième année de BTS SIO, spécialisé en SISR, passionné par l'administration et la sécurité informatique. Je vise un Bachelor 3 en systèmes et réseaux pour devenir expert en administration et sécurité informatique.</p>
+    </section>
+    
+    <section id="experience" class="container">
+        <h2>Expérience Professionnelle</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Janvier 2025</span>
+                    <h3>Technicien réseau</h3>
+                    <p>Administration Stormshield, configuration switch Cisco, VLAN, adressage IP, téléphone Cisco.</p>
+                    <p>Communauté d'agglomération de Béthune Bruay Artois Lys Romane</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="timeline-date">Mai 2024</span>
+                    <h3>Technicien réseau</h3>
+                    <p>Configuration switch Cisco, dépannage.</p>
+                    <p>Communauté d'agglomération de Béthune Bruay Artois Lys Romane</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Mars 2023</span>
+                    <h3>Technicien informatique</h3>
+                    <p>Installation, dépannage informatique.</p>
+                    <p>Communauté d'agglomération de Béthune Bruay Artois Lys Romane</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="timeline-date">Novembre 2022</span>
+                    <h3>Technicien informatique</h3>
+                    <p>Configuration imprimante réseau, support, installation, dépannage.</p>
+                    <p>Communauté d'agglomération de Béthune Bruay Artois Lys Romane</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Avril 2022</span>
+                    <h3>Technicien informatique</h3>
+                    <p>Réparation et vente en téléphonie et informatique.</p>
+                    <p>Web Deal Market - Béthune</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="timeline-date">Juin/Novembre 2021</span>
+                    <h3>Technicien informatique</h3>
+                    <p>Réparation et vente en téléphonie et informatique.</p>
+                    <p>Web Deal Market - Béthune</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-date">Janvier 2021</span>
+                    <h3>Vendeur et Réparateur</h3>
+                    <p>Vente et réparation d'électroménager.</p>
+                    <p>DKA Electro Dépanne</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="realisations" class="container">
+        <h2>Réalisations</h2>
+    
+        <!-- Réalisation 1 : Agglo de Béthune -->
+        <div class="realisation-box">
+            <h3>Réalisation lors de mes deux stages de BTS au sein de l'Agglomération de Béthune</h3>
+            <p>Durant ces stages, j'ai participé à différentes missions liées au réseau, à la maintenance informatique et à la gestion des utilisateurs.</p>
+            <img src="agglomeration.png" alt="Agglomération de Béthune" style="max-width:100%; border-radius:10px; margin-top:20px;">
+        </div>
+    
+        <!-- Réalisation 2 : LACP -->
+        <div class="realisation-box">
+            <h3>Configuration LACP</h3>
+            <p>📘 <strong>Définition simple de LACP :</strong><br>
+            LACP = Link Aggregation Control Protocol<br>
+            C’est un protocole qui permet de regrouper plusieurs liens Ethernet physiques entre deux équipements réseau pour les faire fonctionner comme un seul lien logique.</p>
+    
+            <p>🔧 <strong>À quoi ça sert :</strong><br>
+            ➤ Augmenter le débit (ex : 2 liens de 1 Gbit/s = 2 Gbit/s)<br>
+            ➤ Assurer la redondance (si un câble est coupé, les autres prennent le relais automatiquement)</p>
+    
+            <div class="images-row">
+                <img src="LACP.png" alt="Topologie LACP">
+                <img src="LACPswitch.png" alt="Switch configuré en LACP">
+            </div>
+        </div>  
+        <!-- Réalisation 3 : Cité des Électriciens -->
+        <div class="realisation-box">
+            <h3>Intervention à la Cité des Électriciens</h3>
+            <img src="citeelec.png" alt="Photo de la Cité des Électriciens" style="max-width:100%; border-radius:10px; margin-top:20px;">
+
+            <p>Nous sommes intervenus à la Cité des Électriciens pour un problème avec le TPE.</p>
+            <p>L’erreur de connexion venait d’un switch autogéré qui changeait automatiquement de vitesse de connexion, provoquant des coupures et posant problème à l’usage du TPE.</p>
+
+            <div class="images-row">
+            <img src="reseau.png" alt="Problème réseau">
+            <img src="confswitch.png" class="image-large" alt="Switch conf">       
+    </div>
+</div>
+<!-- Documentation -->
+<div class="realisation-box">
+    <h3>📄 Documentation</h3>
+    <p>Voici quelques documents techniques réalisés:</p>
+    <ul>
+        <li><a href="documentation1.pdf" target="_blank">Communications</a></li>
+        <li><a href="documentation2.pdf" target="_blank">Vlan</a></li>
+        <li><a href="documentation3.pdf" target="_blank">Port-Channel</a></li>
+    </ul>
+</div>
+
+        <!-- Réalisation 4 : Autres réalisations -->
+<div class="realisation-box">
+    <h3>Autres réalisations</h3>
+  
+    <div class="carousel-wrapper">
+      <button class="carousel-button prev">&#10094;</button>
+  
+      <div class="carousel-track-container">
+        <div class="carousel-track">
+          <img class="carousel-image" src="img1.png" alt=".">
+          <img class="carousel-image" src="img2.jpg" alt=".">
+          <img class="carousel-image" src="img3.jpg" alt=".">
+          <img class="carousel-image" src="img4.jpg" alt=".">
+          <img class="carousel-image" src="img5.jpg" alt=".">
+          <img class="carousel-image" src="img6.jpg" alt=".">
+          <img class="carousel-image" src="img7.jpg" alt=".">
+          <img class="carousel-image" src="img8.jpg" alt=".">
+          <img class="carousel-image" src="img9.jpg" alt=".">
+          <img class="carousel-image" src="img10.png" alt=".">
+        </div>
+      </div>
+  
+      <button class="carousel-button next">&#10095;</button>
+    </div>
+  </div>
+  </section>
+  
+    <section id="projets" class="container">
+        <h2>Projets</h2>
+    
+        <div class="realisation-box">
+            <h3>Atelier de professionnalisation : Infrastructure pour GSB</h3>
+            <p>
+                Conception, déploiement et optimisation de l'architecture réseau et système de GSB, entreprise pharmaceutique. 
+                Mise en place d’une infrastructure sécurisée et évolutive pour gérer les données, les stocks et garantir la conformité réglementaire.
+            </p>
+            <div class="tags">
+            </div>
+        </div>
+    
+        <div class="realisation-box">
+            <h3>Mission 1 : Création du domaine et segmentation réseau</h3>
+            <p>
+                Création d’un domaine Active Directory, ajouter des utilisateurs et les joindre dans le domaine, création de gpo, Configuration et installation d'un switch, segmentation du réseau en VLANs, sécurisation des accès, 
+                tests fonctionnels et documentation complète pour faciliter l'administration.
+            </p>
+            <div class="tags">
+                <span>Windows Server</span>
+                <span>Active Directory</span>
+                <span>Switch</span>
+                <span>VLAN</span>
+                <span>GPO</span>
+            </div>
+            <div class="images-row" style="margin-top: 20px;">
+                <img src="AD.png" alt="Capture Active Directory" style="max-width: 45%; border-radius: 10px; margin-right: 10px;">
+                <img src="SwitchAp.png" alt="Capture switch configuration" style="max-width: 45%; border-radius: 10px;">
+        </div>
+        </div>
+    
+        <div class="realisation-box">
+            <h3>Mission 2 : Mise en place d'une DMZ sécurisée</h3>
+            <p>
+                Conception d’une DMZ pour héberger les services accessibles depuis Internet, configuration des pare-feux, 
+                séparation du réseau interne, et mise en place de règles de sécurité.
+            </p>
+            <div class="tags">
+                <span>Pfsense</span>
+                <span>DMZ</span>
+                <span>Firewall</span>
+            </div>
+            <div style="text-align: center; margin-top: 15px;">
+                <img src="pfsense.png" alt="Interface PfSense" style="max-width:80%; border-radius:10px;">
+            </div>
+        </div>
+        </div>
+        
+        <div class="realisation-box">
+            <h3>Mission 3 : Supervision du Système d'Information</h3>
+            <p>
+                Mise en place d'un outil de surveillance Zabbix, gestion des incidents avec GLPI, et équilibrage de charge (NLB) 
+                pour le site Intranet.
+            </p>
+            <div class="tags">
+                <span>Windows Server</span>
+                <span>Zabbix</span>
+                <span>GLPI</span>
+                <span>NLB</span>
+            </div>
+            <div style="margin-top: 20px;">
+                <img src="glpi.png" alt="GLPI" style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+                <img src="zabbix.png" alt="Zabbix" style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+                <img src="iis.png" alt="IIS" style="width: 100%; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="realisation-box">
+            <h3>Schéma Réseau – GSB</h3>
+            
+            <img src="SchemaFini.png" alt="Schéma Réseau CalédoBank" style="width:100%; max-width:800px; margin-top:10px;">
+        </div>
+        
+        
+    </section>
+    
+    
+    
+    <section id="competences" class="container">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <span>Maintenance informatique</span>
+            <span>Installation et support aux utilisateurs</span>
+            <span>Configuration réseau</span>
+            <span>Configuration Switch</span>
+            <span>Windows Server & Linux</span>
+            <span>Active Directory</span>
+            <span>Pfsense, Stormshield</span>
+            <span>GLPI</span>
+            <span>Création de serveurs</span>
+            <span>Cluster IIS (NLB)</span>
+            <span>Soft Skills: Adaptabilité, Travail en équipe, Communication efficace</span>
+        </div>
+    </section>
+    
+    <section id="formation" class="container">
+        <h2>Formation</h2>
+        <div class="formation-box">
+            <p>BTS SIO - Spécialité SISR (En cours)</p>
+            <p>Baccalauréat professionnel SN - Option ARED (Mention Assez Bien)</p>
+        </div>
+    </section>
+    
+    <section id="certifications" class="container">
+        <h2>Certifications</h2>
+        <ul>
+            <li><a href="htoJoXZMqZ1ULNYZgVbMvnuzvMPQsISPb8efNp6bFIjj8cEDgHM8q0TX1qjk_200103_18032025.pdf" target="_blank" class="cta-button">SecNumacadémie - ANSSI</a></li>
+            <li><a href="customcert-report.pdf" target="_blank" class="cta-button">Atelier RGPD - CNIL</a></li>
+            <li><a href="https://www.credly.com/badges/59918c78-656a-4e22-aa86-3d0cde6e967c/linked_in_profile" target="_blank" class="cta-button">CCNA: Introduction to Networks</a></li>
+            <li><a href="https://www.credly.com/badges/966cfc1a-e461-47a0-ab99-c5940bba3dd8" target="_blank" class="cta-button">CCNA: Switching, Routing, and Wireless Essentials</a></li>
+        </ul>
+    </section>
+    
+    <section id="veille" class="container">
+        <!-- SECTION : Veille Technologique -->
+        <div class="realisation-box">
+            <h3>🧭 Veille Technologique</h3>
+            <p>
+                Pour effectuer ma veille technologique, j’utilise <strong>Google Alertes</strong> et <strong>Feedly</strong>, deux outils complémentaires.
+            </p>
+            <p>
+                <strong>Google Alertes</strong> me permet de recevoir automatiquement, par e-mail, des notifications dès qu’un nouvel article est publié sur Internet avec des mots-clés précis
+                (exemples : “sécurité cloud”, “cyberattaques”, “vulnérabilités”).
+            </p>
+            <p>
+                <strong>Feedly</strong> est un agrégateur de flux RSS qui centralise les publications de sites spécialisés. Il me permet de suivre efficacement l’actualité en cybersécurité et cloud computing en un seul endroit, depuis un tableau de bord personnalisé.
+            </p>
+            
+            <p>
+                Le thème que j’ai choisi pour ma veille est : <strong>Cloud Computing et Sécurité</strong>.
+            </p>
+            <p>
+                ☁️ <strong>Cloud computing</strong> : c’est l’utilisation de services informatiques (stockage, serveurs, logiciels) via Internet, sans les installer localement.
+            </p>
+            <p>
+                🔒 <strong>Sécurité dans le cloud</strong> : il faut protéger les données hébergées à distance contre le vol, les erreurs ou les attaques. Cela inclut la confidentialité, l’intégrité, la disponibilité, et le respect du RGPD. La sécurité est partagée entre le fournisseur et l’utilisateur.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; justify-content: center;">
+                <div style="flex: 1 1 300px; text-align: center;">
+                    <img src="feedly.png" alt="Interface Feedly" style="max-width: 100%; border-radius: 10px;">
+                    <p style="font-size: 0.9em; color: #555;">Outil de veille : Feedly</p>
+                </div>
+                <div style="flex: 1 1 300px; text-align: center;">
+                    <img src="alertes.png" alt="Google Alertes" style="max-width: 100%; border-radius: 10px;">
+                    <p style="font-size: 0.9em; color: #555;">Google Alertes hebdomadaires</p>
+                </div>
+            </div>
+            
+            <h4>Décembre 2024</h4>
+<ul class="note-list">
+    <li>
+        <strong>[Oracle confirme une violation de données]</strong> : incident majeur de sécurité lié à un fournisseur cloud.<br>
+        <a href="https://dcod.ch/2025/04/08/cybersecurite-oracle-admet-finalement-un-vol-de-donnees/" target="_blank">Lire l'article</a><br>
+        <span style="font-size: 0.95em;">
+            Oracle a reconnu qu’un de ses fournisseurs cloud avait été compromis, entraînant une fuite de données sensibles. L'incident met en lumière les faiblesses potentielles des chaînes d’approvisionnement cloud et l'importance de l'audit des prestataires.
+        </span>
+    </li>
+    <li>
+        <strong>[Zero Trust devient incontournable]</strong> : stratégie de sécurité devenue essentielle pour protéger les environnements cloud hybrides.<br>
+        <a href="https://www.illumio.com/fr/blog/top-cybersecurity-news-stories-from-december-2024" target="_blank">Lire l'article</a><br>
+        <span style="font-size: 0.95em;">
+            Le modèle Zero Trust s’impose comme une réponse aux menaces persistantes dans les infrastructures hybrides. Il repose sur une vérification stricte et continue de chaque utilisateur et appareil, limitant ainsi la surface d’attaque.
+        </span>
+    </li>
+</ul>
+
+<h4>Janvier 2025</h4>
+<ul class="note-list">
+    <li>
+        <strong>[Synthèse des vulnérabilités de janvier]</strong> : surveillance des failles sur des services en ligne/cloud.<br>
+        <a href="https://www.terama.pf/blog/veille-securite-3/veille-cybersecurite-synthese-du-mois-de-janvier-2025-37" target="_blank">Lire l'article</a><br>
+        <span style="font-size: 0.95em;">
+            Cette synthèse recense les principales vulnérabilités signalées en janvier 2025, dont plusieurs affectant les environnements cloud. Elle met en évidence l'importance d’une veille continue et de la mise à jour rapide des correctifs de sécurité.
+        </span>
+    </li>
+    <li>
+        <strong>[Le rôle DevOps évolue avec l’IA]</strong> : transformation des pratiques cloud avec intégration directe de la sécurité.<br>
+        <a href="https://www.free-work.com/fr/tech-it/blog/actualites-informatiques/le-devops-en-2025-comment-ce-role-evolue-t-il" target="_blank">Lire l'article</a><br>
+        <span style="font-size: 0.95em;">
+            L'article explique comment l’intelligence artificielle influence le rôle des DevOps, en automatisant certaines tâches et en intégrant nativement les aspects de sécurité dans les pipelines de développement (DevSecOps).
+        </span>
+    </li>
+</ul>
+
+<h4>Mars 2025</h4>
+<ul class="note-list">
+    <li>
+        <strong>[Oracle réfute toute violation de son cloud]</strong> : Après les rumeurs d'incidents de sécurité, Oracle déclare qu’aucune faille n’a été constatée sur ses services cloud. L'entreprise conteste les accusations relayées dans la presse spécialisée.<br>
+        <a href="https://www.lemondeinformatique.fr/actualites/lire-oracle-refute-toute-violation-de-son-cloud-96409.html" target="_blank">Lire l'article</a><br>
+        <span style="font-size: 0.95em;">
+            En réponse à des articles évoquant un vol de données, Oracle affirme qu’aucune intrusion n’a été détectée sur ses plateformes cloud. L’entreprise critique la diffusion d’informations non vérifiées et insiste sur la sécurité de ses infrastructures.
+        </span>
+    </li>
+</ul>
+
+
+        </div>
+    </section>
+    
+    
+  
+    
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email : maxencepro.dubois1@gmail.com</p>
+        <p>Téléphone : 06.11.91.21.97</p>
+        <a href="https://www.linkedin.com/in/maxence-dubois-pro/?trk=opento_sprofile_details" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="40" height="40">
+        </a>
+    </section>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.carousel-button.next');
+        const prevButton = document.querySelector('.carousel-button.prev');
+      
+        let currentIndex = 0;
+      
+        function updateCarousel() {
+          const slideWidth = slides[0].getBoundingClientRect().width;
+          track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+        }
+      
+        nextButton.addEventListener('click', () => {
+          if (currentIndex < slides.length - 1) {
+            currentIndex++;
+            updateCarousel();
+          }
+        });
+      
+        prevButton.addEventListener('click', () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+          }
+        });
+      
+        window.addEventListener('resize', updateCarousel);
+      </script>
+      
+</body>
+</html>
